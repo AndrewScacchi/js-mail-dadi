@@ -49,6 +49,8 @@ h1 {
 }
 
 .dice {
+    font-size: 100px;
+    font-weight: bold;
     width: 150px;
     height: 150px;
     line-height: 150px;
