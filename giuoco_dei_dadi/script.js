@@ -4,7 +4,7 @@ console.log("helloworld!");
 
 // Creo una funzione che generi un numero da 1 a 6
 function diceRoll() {
-    return Math.floor(Math.random() * 6);
+    return Math.floor(Math.random() * 6 + 1);
     }
 
 //console.log debug
