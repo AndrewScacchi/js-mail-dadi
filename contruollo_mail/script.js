@@ -62,7 +62,7 @@ button.addEventListener("click", function(){
     for(i=0; i < mailList.length; i++ ){
         if (mailUtente == mailList[i]){
             mailPresente = true;
-            break;  
+            break; //questo non è buona prassi.. 
         } else {
             mailPresente = false;
         }
